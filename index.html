@@ -2,86 +2,14 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Component Library</title>
-    <!-- <style>
-        body {
-            color: red;
-        }
-    </style> -->
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Akash Bagchi portfolio</title>
     <link href="/style.css" rel="stylesheet" />
 </head>
 
 <body>
-    <h1>Akash's component library</h1>
-    <p>
-        I am attanding neog.camp and i want to make a library which would make all
-        my project look good and consistent
-    </p>
-
-    <hr />
-
-    <h2>@typography</h2>
-
-    <h1>This is biggest headline</h1>
-    <h2>This is second headline</h2>
-    <p>this is normal paragraph text</p>
-    <small> this is smaller text</small>
-
-    <hr />
-
-    <h2>@container</h2>
-
-    <h3>fluid container</h3>
-    <div class="container">this is fluid container and it will go till the end of the page</div>
-
-    <h3>center container</h3>
-    <div class="container-center">
-        this is centered container and it will go till the end of the page
-    </div>
-
-    <hr />
-
-    <h2>@links</h2>
-
-    <a class="link link-primary" href="/">Primary Link</a>
-    <a class="link link-secondary" href="/">Secondary Link</a>
-
-    <hr />
-
-    <h2>@list</h2>
-
-    <h3>unordered list</h3>
-
-    <p>This list will not have the bullet</p>
-
-    <ul class="list-non-bullet">
-        <li>Item One</li>
-        <li>Item Two</li>
-        <li>Item Three</li>
-    </ul>
-
-    <h3>unordered inline list</h3>
-
-    <ul class="list-non-bullet">
-        <li class="list-item-inline">Inline Item One</li>
-        <li class="list-item-inline">Inline Item Two</li>
-        <li class="list-item-inline">Inline Item Three</li>
-    </ul>
-
-    <h3>reversed ordered list</h3>
-
-    <ol reversed>
-        <li>milk</li>
-        <li>eggs</li>
-        <li>break</li>
-    </ol>
-
-    <h2>@nav</h2>
-
     <nav class="navigation container">
         <div class="nav-brand">IAmDeveloper</div>
         <ul class="list-non-bullet nav-pills">
@@ -89,34 +17,19 @@
                 <a class="link link-active" href="/">Home</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/">Projects</a>
+                <a class="link" href="/projects.html">Projects</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/">About</a>
+                <a class="link" href="/blogs.html">Blogs</a>
             </li>
         </ul>
     </nav>
 
-    <hr />
-
-    <h2>@Header</h2>
-
     <header class="hero">
         <img class="hero-img" src="images/hero.svg" alt="" />
-        <h1 class="hero-heading">I am a <span class="heading-inverted"> Web Developer </span> </h1>
+        <h1 class="hero-heading">Akash Bagchi, <span class="heading-inverted"> The Web Developer </span> </h1>
+        <a class="link link-primary" href="/">My Resume</a>
     </header>
-
-    <hr />
-
-    <h2>@section</h2>
-
-    <section class="section">
-        <div class="container container-center">
-            <h1>white section</h1>
-            <p>I would like to work in a company that provides an environment where I can utilize my full potential and
-                also get a chance to contribute positively towards meeting the company's objective.</p>
-        </div>
-    </section>
 
     <section class="section ow">
         <div class="container container-center">
@@ -126,20 +39,33 @@
         </div>
     </section>
 
-    <hr />
+    <section class="section">
+        <div class="container container-center">
+            <h1>Projects</h1>
+            <p>I would like to work in a company that provides an environment where I can utilize my full potential and
+                also get a chance to contribute positively towards meeting the company's objective.</p>
+            <a class="link link-primary" href="/">See Projects</a>
+        </div>
+    </section>
 
-    <h2>@footer</h2>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>Blogs</h1>
+            <p>I would like to work in a company that provides an environment where I can utilize my full potential and
+                also get a chance to contribute positively towards meeting the company's objective.</p>
+            <a class="link link-secondary" href="/blogs.html">See Blogs</a>
+        </div>
+    </section>
 
     <footer class="footer">
-        <div>some small heading inside footer</div>
+        <div class="footer-header">Social Media Presence</div>
         <ul>
-            <li class="list-item-inline"> <a class="link" href="/">socialOne </a> </li>
-            <li class="list-item-inline"> <a class="link" href="/">socialTwo </a> </li>
-            <li class="list-item-inline"> <a class="link" href="/">socialThree </a> </li>
+            <li class="list-item-inline"> <a class="link" href="/"> GitHub </a> </li>
+            <li class="list-item-inline"> <a class="link" href="/"> Twitter </a> </li>
+            <li class="list-item-inline"> <a class="link" href="/"> LinkedIn </a> </li>
         </ul>
     </footer>
 
-    <!-- <div style="height: 30vh;"></div> -->
 </body>
 
 </html>
