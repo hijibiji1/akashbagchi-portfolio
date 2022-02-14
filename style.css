@@ -71,7 +71,7 @@ hr {
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
-    border-bottom-left-radius: 1rem;
+    border-bottom-left-radius: 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -98,12 +98,12 @@ hr {
 
 .hero {
     padding: 2rem;
-    padding-top: 5rem;
+    /* padding-top: 5rem; */
     text-align: center;
 }
 
 .hero .hero-img {
-    max-width: 350px;
+    max-width: 500px;
     display: block;
     margin: auto;
 }
@@ -141,6 +141,7 @@ hr {
     text-align:  center;
     color: white;
     margin-top: 3rem;
+    border-top-right-radius: 2rem;
 }
 
 .footer .link {
